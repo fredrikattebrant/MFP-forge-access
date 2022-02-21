@@ -1,0 +1,15 @@
+modules:
+  jira:globalPage:
+    - key: mfp-config-access-hello-world-page
+      resource: main
+      resolver:
+        function: resolver
+      title: MFP-config-access
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: static/hello-world/build
+app:
+  id: ari:cloud:ecosystem::app/f85e1184-a48a-4c92-bf3b-ae50c21f0d1d
