@@ -4,12 +4,18 @@ modules:
       resource: main
       resolver:
         function: resolver
-      title: MFP-config-access
+      title: Forge API access example
   function:
     - key: resolver
       handler: index.handler
 resources:
   - key: main
     path: static/hello-world/build
+permissions:
+  content:
+    styles:
+      - 'unsafe-inline'
+  scopes:
+    - read:jira-work
 app:
   id: ari:cloud:ecosystem::app/f85e1184-a48a-4c92-bf3b-ae50c21f0d1d
