@@ -17,6 +17,6 @@ permissions:
       - 'unsafe-inline'
   scopes:
     - read:jira-work
-    - read:user:jira
+    - read:jira-user
 app:
   id: ari:cloud:ecosystem::app/f85e1184-a48a-4c92-bf3b-ae50c21f0d1d
