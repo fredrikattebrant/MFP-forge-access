@@ -1,6 +1,8 @@
-# Forge Hello World
+# Forge Access Example
 
-This project contains a Forge app written in JavaScript that displays `Hello World!` in a Jira global page.
+This project contains a Forge app written in JavaScript that displays text in a Jira global page.
+The text contains a JSON dump of user info. The purpose of this is to demonstrate accessing
+Jira REST API and triggering the "Allow Access" prompt.
 
 See [developer.atlassian.com/platform/forge/](https://developer.atlassian.com/platform/forge) for documentation and tutorials explaining Forge.
 

@@ -15,7 +15,7 @@ function App() {
     invoke("getUsers").then((users) => {
       console.log("Users => ", users);
       try {
-          setUsers(users);
+          setUsers(JSON.stringify(users));
       } catch (error) {
           console.error("Error in getUsers:", error);
       }
