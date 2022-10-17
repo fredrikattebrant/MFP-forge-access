@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div>
-      <h1>MFP enhanced edition 0.2</h1>
+      <h1>MFP somewhat enhanced edition 0.2</h1>
       <div>{filters ? filters : "Loading filters..."}</div>
       <div>{users ? users : "Loading users..."}</div>
     </div>
